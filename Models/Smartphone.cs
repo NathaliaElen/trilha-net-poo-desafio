@@ -34,7 +34,7 @@ namespace DesafioPOO.Models
 
         public void ExibirInformacoes()
         {
-            Console.WriteLine("=== Informações do Smartphone ===");
+            Console.WriteLine("\n=== Informações do Smartphone ===");
             Console.WriteLine($"Modelo: {Modelo}");
             Console.WriteLine($"IMEI: {IMEI}");
             Console.WriteLine($"Memória: {Memoria} MB");

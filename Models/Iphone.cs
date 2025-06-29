@@ -7,6 +7,7 @@ namespace DesafioPOO.Models
         {
             Numero = numero;
         }
+        
         public override void InstalarAplicativo(string nomeApp)
         {
             Console.WriteLine($"Instalando o aplicativo {nomeApp} via App Store no iPhone.");
