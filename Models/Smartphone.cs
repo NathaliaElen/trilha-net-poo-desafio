@@ -25,6 +25,21 @@ namespace DesafioPOO.Models
             Console.WriteLine("Recebendo ligação...");
         }
 
+        public void Desligar()
+        {
+            Console.WriteLine("Desligando...");
+        }
+
         public abstract void InstalarAplicativo(string nomeApp);
+
+        public void ExibirInformacoes()
+        {
+            Console.WriteLine("=== Informações do Smartphone ===");
+            Console.WriteLine($"Modelo: {Modelo}");
+            Console.WriteLine($"IMEI: {IMEI}");
+            Console.WriteLine($"Memória: {Memoria} MB");
+            Console.WriteLine($"Número: {Numero}");
+            Console.WriteLine("=================================");
+        }
     }
 }
